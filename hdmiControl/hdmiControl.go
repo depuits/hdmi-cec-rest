@@ -13,7 +13,7 @@ var hdmiPort = 0
 func init() {
 	var err error
 
-	hdmi, err = cec.Open("", "cec.go")
+	hdmi, err = cec.Open("", "cec.go", true)
 	if err != nil {
 		fmt.Println(err)
 	}

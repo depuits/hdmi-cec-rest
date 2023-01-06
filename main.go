@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"./webservice"
+	"github.com/depuits/hdmi-cec-rest/webservice"
 )
 
 func main() {
